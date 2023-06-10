@@ -1,0 +1,21 @@
+{
+  "name": "get-screen-color-data-node",
+  "version": "1.0.0",
+  "description": "Get screen color data and pass it when get an api call",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-image-colors": "^4.0.1",
+    "node-vibrant": "^3.2.1-alpha.1",
+    "node-webcam": "^0.8.2",
+    "nodemon": "^2.0.22",
+    "screenshot-desktop": "^1.14.0",
+    "sharp": "^0.32.1"
+  },
+  "type": "module"
+}
